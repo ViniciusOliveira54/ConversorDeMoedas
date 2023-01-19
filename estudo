@@ -1,0 +1,2 @@
+r, m = int(input('Reais ')), str(input('Converter '))
+print('O valor dá', r//5.21 if m == 'dolar' else r/5.60 if m == 'euro' else 'não conheço')

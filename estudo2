@@ -1,0 +1,18 @@
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+print(factorial(10))
+factorial(10)
+
+
+
+'''numero = int(input('Escreva um numero :'))
+fatorial = numero
+contador = 1
+while (numero - contador ) > 1: 
+    fatorial *= ( numero - contador) 
+    contador += 1
+print('{0}! = {1}' .format(numero, fatorial))'''
