@@ -1,0 +1,90 @@
+body{
+   background-color: #202324;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   box-shadow: 30px solid gray;
+   margin: 0 ;
+ }
+
+
+nav li{
+   display: flex;
+   list-style: none;
+   align-items: center;
+}
+
+nav { 
+   width: 1499px;;
+   padding: 10px;
+   display: flex;
+   justify-content: right;
+   list-style: none ;
+   
+}
+
+#sinopse {
+   float: right
+}
+
+
+#navegacaoContainer {
+
+   display: flex;
+   justify-content: space-between;
+   background-color: darkblue;
+   align-items: center  ;
+
+}
+
+
+
+
+
+#img {
+   border: 20px solid #202324 ;
+}
+
+#text { 
+
+color:white;
+
+}
+
+#sinopse { 
+   color:white;
+}
+
+#Sekiro {
+
+    padding-bottom: 100px; 
+}
+
+nav li a { 
+   color:rgb(213, 210, 210);
+   text-align: end;
+   text-decoration: none;
+   padding: 10px;
+}
+
+
+h1 { 
+   font-size: 60px; 
+   color: white;
+}
+
+h2 { 
+
+   font-size: 50px;
+   color:white;
+}
+
+button { 
+
+   background-color: #3b3c3d;
+   align-items: center;
+   display: flex;
+   border-radius: 10px;
+   height: 30px;
+   padding: 10px;
+   margin: 10px;
+
+}
