@@ -36,9 +36,6 @@ nav {
 }
 
 
-
-
-
 #img {
    border: 20px solid #202324 ;
 }
@@ -87,4 +84,16 @@ button {
    padding: 10px;
    margin: 10px;
 
+}
+
+.container {
+   display: flex;
+}
+
+.image-container {
+   width: 50%;
+}
+
+.text-container { 
+   width: 50%;
 }
